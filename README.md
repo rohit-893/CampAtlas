@@ -39,9 +39,11 @@
    - Create a `.env` file in the root directory.
    - Add the following:
      ```
-     DATABASE_URL=<your-mongodb-url>
-     MAPBOX_TOKEN=<your-mapbox-token>
-     SESSION_SECRET=<your-session-secret>
+     DB_URL=<your-mongodb-url>
+     MAPTILER_API_KEY=<your-maptiler-api>
+     CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-nsme>
+     CLOUDINARY_KEY=<your-cloudinary-key>
+     CLOUDINARY_SECRET=<your-cloudinary-secret>
      ```
 
 4. Run the application:
